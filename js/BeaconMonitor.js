@@ -28,16 +28,17 @@ function BeaconMonitor() {
 	this.monitorBeacons = [
         {
             identifier:'ib1',
-            uuid:'A495FF99-C5B1-4B44-B512-1370F02D74DE',
+            uuid:'B7E833FD-49D1-49AD-8B23-8C9C5D5B67DE',
             major:1,
-            minor:1
+            minor:5858
         },
         {
             identifier:'ib2',
-            uuid:'A495FF99-C5B1-4B44-B512-1370F02D74DE',
+            uuid:'B7E833FD-49D1-49AD-8B23-8C9C5D5B67DE',
             major:1,
-            minor:2
-        },
+            minor:15045
+        }
+        /*,
         {
             identifier:'ib3',
             uuid:'A495FF99-C5B1-4B44-B512-1370F02D74DE',
@@ -49,7 +50,7 @@ function BeaconMonitor() {
             uuid:'A495FF99-C5B1-4B44-B512-1370F02D74DE',
             major:1,
             minor:4
-        }
+        }*/
     ];
 
     //When app is active, track the distance from iBeacons,
@@ -86,15 +87,15 @@ function BeaconMonitor() {
         */
         {
             identifier:'onyx1',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:213,
-            minor:17163
+            uuid:'B7E833FD-49D1-49AD-8B23-8C9C5D5B67DE',
+            major:1,
+            minor:5858
         },
         {
             identifier:'onyx2',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:213,
-            minor:16330
+            uuid:'B7E833FD-49D1-49AD-8B23-8C9C5D5B67DE',
+            major:1,
+            minor:15045
         },
         {
             identifier:'onyx3',
